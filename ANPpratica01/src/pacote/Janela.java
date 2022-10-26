@@ -1,5 +1,5 @@
 package pacote;
-
+/**Leonardo Ribeiro (25/10/2022)**/
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -108,9 +108,9 @@ public class Janela extends JFrame {
 
 				String valorSelecionado = (String) comboBox.getSelectedItem();
 				if (textoTotal == null) {
-					textoTotal = valorSelecionado + " " + name + " cujo cpf é " + cpf + "\n";
+					textoTotal = valorSelecionado + " " + name + " cujo cpf Ã© " + cpf + "\n";
 				} else {
-					textoTotal = textoTotal + valorSelecionado + name + " cujo CPF é " + cpf + "\n";
+					textoTotal = textoTotal + valorSelecionado + name + " cujo CPF Ã© " + cpf + "\n";
 				}
 				textArea_1.setText(textoTotal);
 			}
